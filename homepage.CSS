@@ -1,0 +1,35 @@
+.tab {
+    font-size: 18px;
+    border: 1px solid;
+    background-color: lightblue;
+    padding: 62px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    margin: 0;
+    float: left;
+    cursor: pointer;
+}
+
+.fullPage {
+    background-color: aquamarine;
+}
+
+.img { 
+    size-adjust: 400px;
+}
+
+.bodyText {
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.bodyContainer {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.fullPage {
+    display: flex;
+    flex-direction: column;
+}

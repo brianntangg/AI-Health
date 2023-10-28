@@ -1,1 +1,2 @@
-# VandyHacks
+# VandyHacks 
+HappyHealth.org is a website that consults users for their health related needs such as physical activities and diet. We give personalized feedback on your health such as implementing a workout routine or daily diet suggestions. 
