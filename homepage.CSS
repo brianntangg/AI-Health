@@ -3,13 +3,16 @@
     color:darkolivegreen;
     font-weight: bold;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    padding: 10px;
+    padding-left: 13px;
+    padding-right: 13px;
+    align-content: center;
 
 }
 .tab {
     font-size: 18px;
     border: 1px solid;
     background-color: lightblue;
+    align: center;
     padding: 62px;
     padding-bottom: 30px;
     padding-top: 50px;
@@ -23,14 +26,15 @@
     background-color:beige;
 }
 
-.img { 
+img { 
     size-adjust: 400px;
     padding: 20px, 20px, 20px, 20px;
 }
 
 .bodyText {
     font-size: larger;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 20px;
 }
 
 .bodyContainer {
