@@ -1,11 +1,14 @@
 #companyName {
     font-size: 30px;
-    color:darkblue;
+    color:gold;
     font-weight: bold;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    padding-left: 13px;
-    padding-right: 13px;
+    padding-left: 35px;
+    padding-right: 35px;
+    vertical-align: top;
     align-content: center;
+    border: solid;
+    border-color: darkgoldenrod;
 }
 
 .tab {
@@ -16,7 +19,8 @@
     color: black;
     box-align: center;
     text-align: center;
-    padding: 80px;
+    padding-left: 5%;
+    padding-right: 5%;
     padding-bottom: 30px;
     padding-top: 30px;
     margin: 0;
@@ -25,11 +29,6 @@
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     width: 300px;
     height: 30px;
-    
-}
-
-.fullPage {
-    background-color:lightblue;
 }
 
 img { 
@@ -47,6 +46,12 @@ img {
     display: flex;
     flex-direction: row;
     padding: 20px, 20px, 20px, 20px;
+    border: solid;
+    border-color: azure;
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	height: 100vh;
 }
 
 .fullPage {
@@ -56,4 +61,16 @@ img {
 
 .titleTab {
     display:flex;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
 }
