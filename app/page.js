@@ -15,7 +15,7 @@ export default function Chat() {
         ))}
       </div>
       <form onSubmit = {handleSubmit} className = 'inputForm'>
-        <input value = {input} onChange = {handleInputChange} className = "inputField" placeholder = "Type in your answers" />
+        <input value = {input} onChange = {handleInputChange} className = "inputField" placeholder = "Type in your response" />
       </form>
     </div>
   );
