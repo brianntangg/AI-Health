@@ -1,3 +1,10 @@
+#companyName {
+    font-size: 30px;
+    color:darkolivegreen;
+    font-weight: bold;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    align-content
+}
 .tab {
     font-size: 18px;
     border: 1px solid;
@@ -8,28 +15,34 @@
     margin: 0;
     float: left;
     cursor: pointer;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
 
 .fullPage {
-    background-color: aquamarine;
+    background-color:beige;
 }
 
 .img { 
     size-adjust: 400px;
+    padding: 20px, 20px, 20px, 20px;
 }
 
 .bodyText {
     font-size: larger;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
 
 .bodyContainer {
     display: flex;
     flex-direction: row;
-
+    padding: 20px, 20px, 20px, 20px;
 }
 
 .fullPage {
     display: flex;
     flex-direction: column;
+}
+
+.titleTab {
+
 }
