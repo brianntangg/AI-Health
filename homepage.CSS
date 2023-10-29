@@ -15,7 +15,7 @@
     width: 40vw;
     font-size: 18px;
     border: solid;
-    background-color: beige;
+    background-color:antiquewhite;
     color: black;
     box-align: center;
     text-align: center;
@@ -57,6 +57,7 @@ img {
 .fullPage {
     display: flex;
     flex-direction: column;
+    
 }
 
 .titleTab {
