@@ -3,7 +3,8 @@
     color:darkolivegreen;
     font-weight: bold;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    align-content
+    padding: 10px;
+
 }
 .tab {
     font-size: 18px;
@@ -11,7 +12,7 @@
     background-color: lightblue;
     padding: 62px;
     padding-bottom: 30px;
-    padding-top: 30px;
+    padding-top: 50px;
     margin: 0;
     float: left;
     cursor: pointer;
@@ -44,5 +45,5 @@
 }
 
 .titleTab {
-
+    display:flex;
 }
